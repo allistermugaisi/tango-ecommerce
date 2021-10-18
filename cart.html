@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+  <link rel="shortcut icon" href="https://res.cloudinary.com/dgisuffs0/image/upload/v1634531590/child_m8pjmu.jpg" type="image/png" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+     <!-- Boxicons -->
+  <link href='https://unpkg.com/boxicons@2.0.8/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Tango Ecommerce</title>
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="nav">
+      <div class="wrapper container">
+        <div class="logo"><a href="">
+          <img src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/c_fit,h_64,w_144/v1634043288/tango-logo_zcj4cs.jpg" alt="tango-logo">
+        </a>
+        </div>
+        <ul class="nav-list">
+          <div class="top">
+            <label for="" class="btn close-btn"><i class="fas fa-times"></i></label>
+          </div>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li>
+            <a href="" class="desktop-item">Categories <span><i class="fas fa-chevron-down"></i></span></a>
+            <input type="checkbox" id="showMega" />
+            <label for="showMega" class="mobile-item">Categories <span><i class="fas fa-chevron-down"></i></span></label>
+            <div class="mega-box">
+              <div class="content">
+                <div class="row">
+                  <img src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1634049574/mega2-image_keudlp.jpg" alt="" />
+                </div>
+                <div class="row">
+                  <header>Categories</header>
+                  <ul class="mega-links">
+                    <li><a href="#">Shoes</a></li>
+                    <li><a href="#">Socks</a></li>
+                    <li><a href="#">Jeans</a></li>
+                    <li><a href="#">Jackets</a></li>
+                  </ul>
+                </div>
+                <div class="row">
+                  <header>Brands</header>
+                  <ul class="mega-links">
+                    <li><a href="#">Nike</a></li>
+                    <li><a href="#">Addidas</a></li>
+                    <li><a href="#">Missoni</a></li>
+                    <li><a href="#">Givenchi</a></li>
+                  </ul>
+                </div>
+                <div class="row">
+                  <header>Exclusive Products</header>
+                  <ul class="mega-links">
+                    <li><a href="#">Happy Socks</a></li>
+                    <li><a href="#">Gucci</a></li>
+                    <li><a href="#">Calvin Klein</a></li>
+                    <li><a href="#"> Alexander McQueen</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li><a href="">Blog</a></li>
+          <li>
+            <a href="" class="desktop-item">Our Store <span><i class="fas fa-chevron-down"></i></span></a>
+            <input type="checkbox" id="showdrop1" />
+            <label for="showdrop1" class="mobile-item">Our Store <span><i class="fas fa-chevron-down"></i></span></label>
+            <ul class="drop-menu1">
+              <li><a href="">Vendor Store listings</a></li>
+              <li><a href="">Store Details</a></li>
+            </ul>
+          </li>
+  
+          <li>
+            <a href="" class="desktop-item">More <span><i class="fas fa-chevron-down"></i></span></a>
+            <input type="checkbox" id="showdrop2" />
+            <label for="showdrop2" class="mobile-item">More <span><i class="fas fa-chevron-down"></i></span></label>
+            <ul class="drop-menu2">
+              <li><a href="">About</a></li>
+              <li><a href="">Contact</a></li>
+              <li><a href="">Faq</a></li>
+              <li><a href="">Help</a></li>
+            </ul>
+          </li>
+          <!-- icons -->
+          <li class="icons">
+            <a href="cart.html">
+              <span>
+              <!-- <img src="./images/shoppingBag.svg" alt="" /> -->
+              <i class='bx bx-cart-alt bx-lg'></i>
+              <small class="count d-flex">5</small>
+            </span>
+            </a>
+            <span><img src="./images/search.svg" alt="" /></span>
+          </li>
+        </ul>
+        <label for="" class="btn open-btn"><i class="fas fa-bars"></i></label>
+      </div>
+    </nav>
+  
+    <!-- Cart Items -->
+    <div class="container cart">
+      <table>
+        <tr>
+          <th>Product</th>
+          <th>Quantity</th>
+          <th>Subtotal</th>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="https://res.cloudinary.com/dgisuffs0/image/upload/v1634534764/baby-photo_u5vvi2.jpg" alt="" />
+              <div>
+                <p>Jacket</p>
+                <span>Price: Kes 600</span>
+                <br />
+                <a href="#">remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" min="1" /></td>
+          <td>Kes 50</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1634531593/shoes_k0zakp.jpg" alt="" />
+              <div>
+                <p>Shoes</p>
+                <span>Price: Kes 900</span>
+                <br />
+                <a href="#">remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" min="1" /></td>
+          <td>Kes 90</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1634531592/socks_wv5fk0.png" alt="" />
+              <div>
+                <p>Pinky socks</p>
+                <span>Price: Kes 700</span>
+                <br />
+                <a href="#">remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" min="1" /></td>
+          <td>Kes 60</td>
+        </tr>
+      </table>
+
+      <div class="total-price">
+        <table>
+          <tr>
+            <td>Subtotal</td>
+            <td>Kes 2000</td>
+          </tr>
+          <tr>
+            <td>Tax</td>
+            <td>Kes 500</td>
+          </tr>
+          <tr>
+            <td>Total</td>
+            <td>Kes 2500</td>
+          </tr>
+        </table>
+        <a href="#" class="checkout btn">Proceed To Checkout</a>
+      </div>
+    </div>
+
+     <!-- Footer -->
+  <footer id="footer" class="section footer">
+    <div class="container">
+      <div class="footer-container">
+        <div class="footer-center">
+          <h3>EXTRAS</h3>
+          <a href="#">Brands</a>
+          <a href="#">Gift Certificates</a>
+          <a href="#">Affiliate</a>
+          <a href="#">Specials</a>
+          <a href="#">Site Map</a>
+        </div>
+        <div class="footer-center">
+          <h3>INFORMATION</h3>
+          <a href="#">About Us</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
+          <a href="#">Contact Us</a>
+          <a href="#">Site Map</a>
+        </div>
+        <div class="footer-center">
+          <h3>MY ACCOUNT</h3>
+          <a href="#">My Account</a>
+          <a href="#">Order History</a>
+          <a href="#">Wish List</a>
+          <a href="#">Newsletter</a>
+          <a href="#">Returns</a>
+        </div>
+        <div class="footer-center">
+          <h3>CONTACT US</h3>
+          <div>
+            <span>
+              <i class="fas fa-map-marker-alt"></i>
+            </span>
+            42 Dream House, Dreammy street, 7131 Dreamville, USA
+          </div>
+          <div>
+            <span>
+              <i class="far fa-envelope"></i>
+            </span>
+            company@gmail.com
+          </div>
+          <div>
+            <span>
+              <i class="fas fa-phone"></i>
+            </span>
+            456-456-4512
+          </div>
+          <div class="payment-methods">
+            <img src="./images/payment.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+    <!-- Custom Scripts -->
+    <script src="./js/index.js"></script>
+  </body>
+</html>
